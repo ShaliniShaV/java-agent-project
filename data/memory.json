@@ -1,0 +1,51 @@
+{
+  "preferences": {
+    "allergies": [],
+    "diet": "vegetarian"
+  },
+  "medical": {
+    "medications": []
+  },
+  "history": [
+    {
+      "event": "plan_generated",
+      "plan": {
+        "monday": {
+          "breakfast": "oats",
+          "lunch": "dal-rice",
+          "dinner": "veg-pulao"
+        },
+        "tuesday": {
+          "breakfast": "idli",
+          "lunch": "sambar-rice",
+          "dinner": "mix-veg"
+        }
+      }
+    },
+    {
+      "event": "recommendations",
+      "grocery": [
+        "oats",
+        "milk",
+        "banana",
+        "rice",
+        "mixed-veg",
+        "spices"
+      ]
+    },
+    {
+      "task": {
+        "task": "breakfast: oats"
+      },
+      "event": "completed_task",
+      "day": 1
+    },
+    {
+      "task": {
+        "task": "dinner: veg-pulao"
+      },
+      "event": "completed_task",
+      "day": 2
+    }
+  ]
+}

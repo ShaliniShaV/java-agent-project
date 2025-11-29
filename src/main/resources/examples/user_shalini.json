@@ -1,0 +1,18 @@
+{
+  "name": "Shalini",
+  "age": 29,
+  "diet": "vegetarian",
+  "allergies": ["peanut"],
+  "workSchedule": {
+    "monday": "9-17",
+    "tuesday": "9-17"
+  },
+  "availability": {
+    "morning": true,
+    "evening": true
+  },
+  "pantry": {
+    "oats": 1,
+    "rice": 2
+  }
+}
